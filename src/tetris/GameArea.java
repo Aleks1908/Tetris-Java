@@ -179,9 +179,6 @@ public class GameArea extends JPanel {
         return true; 
     }
     
-    
-    
-    
     //Functions that react on keypresses
     
     public boolean moveBlockDown(){                 //calling this function allways while the game is running and while it returns true i use thread to slow down the falling of the block 
@@ -240,11 +237,6 @@ public class GameArea extends JPanel {
     }
     
     
-    
-    
-    
-
-    
     public void moveBlockToBackground(){  //This function sets the background blocks that have to be colored it executes after the block has fallen
                                             
         int[][] shape = block.getShape();
@@ -264,11 +256,6 @@ public class GameArea extends JPanel {
             }
         }
     }
-   
-
-    
-
-
     
     
     //These functions are used to clear a line that is full
