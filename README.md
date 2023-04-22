@@ -66,6 +66,9 @@ Tetris-Java/dist/java-doc
 
 ## Credits
 The project has been build by the help of the following sources:
+
 "https://zetcode.com/javagames/tetris/"
+
 "https://www.youtube.com/watch?v=QbBKsrvrIq8"
+
 "https://www.youtube.com/watch?v=dgVh6S8X25k"
