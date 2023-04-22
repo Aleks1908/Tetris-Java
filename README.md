@@ -19,7 +19,7 @@ The main challange was to visualise all the different blocks and connect every d
 The project is wrtten in Appache NetBeans17 and it does not require any additional software to be ran or installed. You can either open the project via Apache Netbeans or you can locate the Tetris.jar in: 
 
 ```bash
- cd /(path to project)/Tetris/dist
+ cd /(path to project)/Tetris-Java/dist
 ```
 
 And then you have to run the jar file with the following command: 
@@ -55,6 +55,14 @@ TetrisBlock.java -> is responsible for getting, moving/rotating the block
 
 
 tetrisblocks/NBlock.java -> are responsible for giving the shape and color of the block
+
+## Java Documentation 
+
+Java Documentation is located in:
+
+```bash
+Tetris-Java/dist/java-doc
+```
 
 ## Credits
 The project has been build by the help of the following sources:
