@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"tetris"},{"l":"tetrisblocks"}];updateSearchResults();
