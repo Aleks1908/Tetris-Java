@@ -44,7 +44,7 @@ public class Instructions extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setText("Start the game by pressing the \"Play\" button on the main menu. ");
+        jLabel3.setText("Start the game by pressing the \"Start Game\" button on the main menu. ");
 
         jLabel2.setText("The objective of the game is to rotate and move the falling Tetromino blocks ");
 

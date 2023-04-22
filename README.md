@@ -34,6 +34,8 @@ The project has an information tab when opened. That can be used to instrcuct th
 
 ## Implemented classes
 
+
+
 ## Credits
 The project has been build by the help of the following sources:
 "https://zetcode.com/javagames/tetris/"

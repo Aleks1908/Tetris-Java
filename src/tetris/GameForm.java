@@ -77,6 +77,8 @@ public class GameForm extends javax.swing.JFrame {
        ga.initBackgroundArray();
        gt =  new GameThread(ga, this);
        gt.start();
+       Tetris.playThemeSong();
+
     }
     
     public void updateScore(int score){     //This function is used to display the score
@@ -170,6 +172,8 @@ public class GameForm extends javax.swing.JFrame {
         gt.interrupt();
         this.setVisible(false);
         Tetris.showStartup(); 
+                Tetris.stopThemeSong();
+
     }//GEN-LAST:event_btnMainMenuActionPerformed
     
     public static void main(String args[]){

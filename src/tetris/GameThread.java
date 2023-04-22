@@ -34,7 +34,6 @@ public class GameThread extends Thread{
     @Override
     public void run(){
         boolean executedClearLeft = false;
-        Tetris.playThemeSong();
         gf.updateScore(0);
         gf.updateLevel(0);
         while(true){        //While the game is playing we call functions that are responsible for: 
@@ -49,6 +48,7 @@ public class GameThread extends Thread{
             }
             if(ga.isBlockOutOfBounds()){        //Checking if the block is inboubds
                 Tetris.gameOver(score);
+                Tetris.stopThemeSong();
                 break;
             }
             ga.moveBlockToBackground();         //Moves the blocks that have fallen to the background

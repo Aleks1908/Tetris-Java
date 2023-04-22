@@ -74,5 +74,8 @@ public class AudioPlayer {
         themeSong.setFramePosition(0);
         themeSong.start();
     }
+    public void stopThemeSong(){
+        themeSong.stop();
+    }
     
 }

@@ -43,6 +43,7 @@ public class Tetris {
     
     public static void gameOver(int score){     //Showing the gameover screen
         playGameover();
+        stopThemeSong();
         String playerName = JOptionPane.showInputDialog("GameOver\nPlease enter your name.");
         System.out.println(playerName);
         gf.setVisible(false);
@@ -65,6 +66,9 @@ public class Tetris {
     public static void playThemeSong(){
         audio.playThemeSong();
     }
+    public static void stopThemeSong(){
+        audio.stopThemeSong();
+    }
         
     public static void main(String args[]){
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -74,7 +78,6 @@ public class Tetris {
                 lf = new LeaderboardForm();
                 sf = new StartupForm();
                 ins = new Instructions();
-                
                 sf.setVisible(true);
             }
         });
