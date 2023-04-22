@@ -34,16 +34,25 @@ The project has an information tab when opened. That can be used to instrcuct th
 
 ## Implemented classes
 
-The game initializes a lot of classes: 
+###The game initializes a lot of classes: 
 AudioPlayer.java -> is responsible for playing and stopping songs
+
 GameArea.java -> is responsible for the whole game logic(how the background, blocks work)
+
 GameForm.java -> is responsible for displaying the game field
+
 GameThread.java -> is responsible for moving the block downwards and updateing the score and level
+
 Instructions.java -> is responsible for showing the player how to play the games
-LeaderboardForm.java -> is responsible for showing the scores of the players 
+
+LeaderboardForm.java -> is responsible for showing the scores of the players
+ 
 StartupForm.java -> is responsible for showing all menu options when the player opens the game
+
 Tetris.java -> is responsible for setting the state of the game
+
 TetrisBlock.java -> is responsible for getting, moving/rotating the block
+
 
 tetrisblocks/NBlock.java -> are responsible for giving the shape and color of the block
 
