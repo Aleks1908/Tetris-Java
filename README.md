@@ -10,7 +10,7 @@ The Tetris Game is a classic puzzle game that challenges players to manipulate f
     
 The project is written in Java with the help of Java Swing GUI toolkit which provides a set of lightweght components for building desktop applications. I chose Swing because it is ideal for building small games due to all the custom components, handle events and graphics rendering
 
-### Chanlanges that I have faced and future features
+### Challanges that I have faced and future features
 
 The main challange was to visualise all the different blocks and connect every different class to work when it is needed. In the future there needs to be made a better design for all blocks and make the blocks spawn above the visible area and to start appearing while falling down slowly.
 
