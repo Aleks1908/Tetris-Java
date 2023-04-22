@@ -18,6 +18,7 @@ public class Tetris {
     private static GameForm gf;
     private static LeaderboardForm lf;
     private static StartupForm sf; 
+    private static Instructions ins;
     
     private static AudioPlayer audio = new AudioPlayer();
     
@@ -35,6 +36,10 @@ public class Tetris {
     public static void showStartup(){           //Showing the main menu
         sf.setVisible(true);
     }
+    public static void showInstructions(){           //Showing the instructions menu
+        ins.setVisible(true);
+    }
+
     
     public static void gameOver(int score){     //Showing the gameover screen
         playGameover();
@@ -68,7 +73,8 @@ public class Tetris {
                 gf = new GameForm();
                 lf = new LeaderboardForm();
                 sf = new StartupForm();
-
+                ins = new Instructions();
+                
                 sf.setVisible(true);
             }
         });

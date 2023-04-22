@@ -35,6 +35,8 @@ public class GameThread extends Thread{
     public void run(){
         boolean executedClearLeft = false;
         Tetris.playThemeSong();
+        gf.updateScore(0);
+        gf.updateLevel(0);
         while(true){        //While the game is playing we call functions that are responsible for: 
             ga.spawnBlock();
             while(ga.moveBlockDown() == true){      //Moving the blocks down
@@ -54,7 +56,7 @@ public class GameThread extends Thread{
             gf.updateScore(score);              //Updating the score
 
             int lvl = score / scorePerLevel + 1;
-            if(lvl > level  ){                  //Speeding up the game
+            if(lvl > level){                  //Speeding up the game
                 level = lvl;
                 gf.updateLevel(level);      
                 pause -= speedupPerLevel;
