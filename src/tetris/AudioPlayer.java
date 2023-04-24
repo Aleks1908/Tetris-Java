@@ -72,7 +72,8 @@ public class AudioPlayer {
     
     public void playThemeSong(){
         themeSong.setFramePosition(0);
-        themeSong.start();
+        themeSong.loop(Clip.LOOP_CONTINUOUSLY);
+
     }
     public void stopThemeSong(){
         themeSong.stop();
