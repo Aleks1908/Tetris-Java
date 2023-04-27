@@ -3,11 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris/src/tetris/LeaderboardForm.java</file>
-            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris/src/tetris/GameThread.java</file>
-            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris/src/tetris/StartupForm.java</file>
-            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris/src/tetris/Tetris.java</file>
-            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris/src/tetris/Instructions.java</file>
+            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris-Java/src/tetris/GameForm.java</file>
+            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris-Java/src/tetris/GameThread.java</file>
+            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris-Java/src/tetris/GameArea.java</file>
+            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris-Java/src/tetris/Instructions.java</file>
+            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris-Java/src/tetris/LeaderboardForm.java</file>
+            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris-Java/src/tetris/AudioPlayer.java</file>
+            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris-Java/src/tetris/StartupForm.java</file>
+            <file>file:/Users/aleks4o/Documents/Programming/Java/Tetris-Java/src/tetris/TetrisBlock.java</file>
         </group>
     </open-files>
 </project-private>

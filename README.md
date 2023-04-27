@@ -34,7 +34,7 @@ The project has an information tab when opened. That can be used to instrcuct th
 
 ## Implemented classes
 
-###The game initializes a lot of classes: 
+### The game initializes a lot of classes: 
 AudioPlayer.java -> is responsible for playing and stopping songs
 
 GameArea.java -> is responsible for the whole game logic(how the background, blocks work)
